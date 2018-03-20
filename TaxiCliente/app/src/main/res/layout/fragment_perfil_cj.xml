@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.franchesco.taxicliente.Fragments.Juridico.PerfilCJ">
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/salirb" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ImgPerfilJ"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/persona"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/txtNombreEmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="145dp"
+        android:textColor="@color/colorWhite" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/person_black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlack"
+        android:text="Datos Personales"
+        android:layout_marginTop="252dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruc"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/txtRuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Representante"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/txtRepresentante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="190dp"/>
+
+</RelativeLayout>

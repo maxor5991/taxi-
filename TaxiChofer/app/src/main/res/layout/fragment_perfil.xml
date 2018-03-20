@@ -1,0 +1,226 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.franchesco.taxichofer.Fragments.Perfil">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="55dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnCerrarSesion"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/salirb" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="545dp"
+                android:background="@drawable/fondo2"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ImgPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/larcomar"
+                app:civ_border_color="@color/colorWhite"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="165dp"
+                android:textAlignment="textEnd"
+                android:text="Nombre"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/txtApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="165dp"
+                android:text="Apellido"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/person_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/colorBlack"
+                android:text="Datos Personales"
+                android:layout_marginTop="202dp"
+                android:layout_marginLeft="70dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DNI"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/txtDNI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="120dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celular"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/txtCelular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="120dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/txtCorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="120dp"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_car_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/colorBlack"
+                android:text="Datos del Vehiculo"
+                android:layout_marginTop="353dp"
+                android:layout_marginLeft="70dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placa"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/txtPlaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="120dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marca"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/txtMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="120dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modelo"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/txtModelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="120dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/txtColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginLeft="120dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

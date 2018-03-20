@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RapiTaxi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home_cj">HomeCJ</string>
+
+    <string name="correoError">Correo inválido</string>
+    <string name="claveError">Contraseña inválida</string>
+
+    <string name="dniR">Ingrese un número de DNI válido</string>
+    <string name="correoR">Ingrese un correo válido</string>
+    <string name="claveR">Contraseña inválida,Aceptamos 0-9,A-z,!@#$%-_*</string>
+
+    <string name="referencia">Ingrese una referencia de su destino</string>
+    <string name="mireferencia">Ingrese una referencia de su ubicación</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

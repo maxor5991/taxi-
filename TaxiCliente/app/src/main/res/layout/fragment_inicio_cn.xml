@@ -1,0 +1,27 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.franchesco.taxicliente.Fragments.Natural.InicioCN">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/colorBlack"
+            android:text="Mis Pedidos"
+            android:paddingTop="15dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ListaPedidoCN"
+            android:layout_marginTop="65dp"
+            android:paddingBottom="60dp"
+            android:divider="@color/colorWhite"/>
+
+</FrameLayout>

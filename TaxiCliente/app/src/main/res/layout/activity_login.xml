@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    tools:context="com.franchesco.taxicliente.Login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/logo_app"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="0dp"
+        android:drawablePadding="10dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"
+        android:textAlignment="center"
+        android:hint="Correo"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/txtClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:hint="******"
+        android:textSize="25dp"
+        android:drawablePadding="10dp"
+        android:maxLength="6"/>
+
+    <CheckBox
+        android:id="@+id/ckbClienteJuridico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Soy Cliente Vip"
+        android:textColor="@color/colorWhite"
+        android:buttonTint="@color/colorYellow"/>
+
+    <Button
+        android:id="@+id/btnIniSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:background="@color/colorYellow"
+        android:text="Iniciar Sesion"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btnRegistrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrate Aqui"
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@null"/>
+
+</LinearLayout>

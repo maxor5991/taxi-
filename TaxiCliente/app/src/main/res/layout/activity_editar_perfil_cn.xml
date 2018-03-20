@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.franchesco.taxicliente.Fragments.Natural.EditarPerfilCN">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/txtEdiNom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:background="@drawable/redondo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textSize="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/txtEdiApe"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="110dp"
+        android:padding="10dp"
+        android:background="@drawable/redondo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D.N.I"
+        android:textSize="20dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/txtEdiDni"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="165dp"
+        android:padding="10dp"
+        android:background="@drawable/redondo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celular"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/txtEdiCel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="220dp"
+        android:padding="10dp"
+        android:background="@drawable/redondo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textSize="20dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/txtEdiCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="275dp"
+        android:padding="10dp"
+        android:background="@drawable/redondo"/>
+
+    <Button
+        android:id="@+id/btnEdiGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnverde"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/colorWhite"
+        android:text="Guardar Cambios"/>
+</RelativeLayout>

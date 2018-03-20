@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.franchesco.taxicliente.Fragments.Natural.PerfilCN">
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/salirb" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ImgPerfil"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/persona"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorWhite" />
+
+    <ImageButton
+        android:id="@+id/ImgPerfilSolo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/camera_white"/>
+    
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="100dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/txtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btnEditarCN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnverde"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="167dp"
+        android:text="Editar Perfil"
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/person_black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlack"
+        android:text="Datos Personales"
+        android:layout_marginTop="252dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNI"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/txtDNI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celular"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/txtCelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="120dp"/>
+
+</RelativeLayout>

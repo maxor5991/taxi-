@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.franchesco.taxicliente.Fragments.Natural.PedidoCN">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlack"
+        android:text="Realizar Pedido"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destino"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/txtReferencia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnRespuesta"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/redondo"
+        android:hint="Referencia Ejm.''Hotel Marriott''"
+        android:padding="5dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnVerDireccion"
+        android:background="@drawable/search_black"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/txtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtLongitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txtLatitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:text="Mi Ubicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/txtMiReferencia"
+        android:hint="Referencia de Mi Ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:background="@drawable/redondo"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/txtLocacionLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/txtLocacionLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnVerMiDireccion"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/location_on_black"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/txtVerMiDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nº de Personas"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerNumPersonas"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="140dp"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="70dp"
+        android:padding="5dp"
+        android:background="@drawable/redondo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="Hora"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/txtMostarHora"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="120dp"
+        android:hint="00:00"
+        android:paddingLeft="20dp"
+        android:background="@drawable/redondo"/>
+
+    <Button
+        android:id="@+id/btnHora"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/alarm_black"
+        />
+
+    <TextView
+        android:id="@+id/txtFechaHoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnRealizarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:text="Realizar Pedido"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</FrameLayout>
